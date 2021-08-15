@@ -1,0 +1,120 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  margin: 0;
+  max-height: 100%;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 3% 0% 5% 0%;
+  font-size: 60pt;
+}
+h2 {
+  margin: 3% 0% 5% 0%;
+  font-size: 35pt;
+}
+p {
+  margin: 2% 0;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.search-field {
+  text-align: right;
+}
+#currentButton {
+  display: inline;
+  font-weight: thin;
+  font-size: small;
+  border-radius: 10pt;
+  border-width: 0.5pt;
+  border-color: rgb(163, 161, 161);
+  background: peachpuff;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 5px 2px 5px 2px;
+}
+#search-text-input {
+  background: rgb(250, 250, 235);
+  border-radius: 10pt;
+  border-width: 0.5pt;
+  border-color: rgb(163, 161, 161);
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+}
+#search-button {
+  display: inline;
+  font-weight: thin;
+  font-size: small;
+  border-radius: 10pt;
+  border-width: 0.5pt;
+  border-color: rgb(163, 161, 161);
+  background: rgb(198, 252, 225);
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 5px 2px 5px 2px;
+}
+#currentDateTimeLocal {
+  display: block;
+  margin: auto;
+  border: none;
+  background: transparent;
+}
+.main-weather-icon {
+  color: darkcyan;
+  font-size: 150px;
+  text-align: center;
+  width: 100%;
+}
+.localCityTemperature {
+  text-align: center;
+  font-size: 60pt;
+  font-weight: 900;
+}
+#minTemp {
+  font-size: 40pt;
+  color: rgb(71, 71, 204);
+  padding-top: 10pt;
+}
+#maxTemp {
+  font-size: 40pt;
+  color: rgb(218, 63, 63);
+  padding-top: 10pt;
+}
+.card-title {
+  font-size: 25pt;
+  font-weight: 500;
+}
+.dayIcon {
+  color: darkcyan;
+  font-size: 45pt;
+  text-align: center;
+  width: 100%;
+}
+.day-min-temp {
+  color: rgb(71, 71, 204);
+  font-size: 25pt;
+}
+
+.day-max-temp {
+  color: rgb(218, 63, 63);
+  font-size: 25pt;
+}
+
+.card {
+  background-color: #e8e2f7;
+}
