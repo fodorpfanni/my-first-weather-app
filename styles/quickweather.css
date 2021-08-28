@@ -95,6 +95,11 @@ p {
   color: rgb(218, 63, 63);
   padding-top: 10pt;
 }
+#fahrTemp {
+  font-weight: bold;
+  display: inline;
+  font-size: 30pt;
+}
 .card-title {
   font-size: 25pt;
   font-weight: 500;
@@ -114,7 +119,12 @@ p {
   color: rgb(218, 63, 63);
   font-size: 25pt;
 }
-
+.feels {
+  font-size: 20pt;
+  list-style: none;
+  padding: 0;
+  display: block;
+}
 .card {
   background-color: #e8e2f7;
 }
